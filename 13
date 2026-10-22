@@ -1,0 +1,18 @@
+Study about Wireshark
+Wireshark is an open-source packet analyzer, which is used for education, analysis, software development, communication protocol development, and network troubleshooting.
+It is used to track the packets so that each one is filtered to meet our specific needs. It is commonly called as a sniffer, network protocol analyzer, and network analyzer. It is also used by network security engineers to examine security problems.
+Wireshark is a free to use application which is used to apprehend the data back and forth. It is often called as a free packet sniffer computer application. It puts the network card into an unselective mode, i.e., to accept all the packets which it receives.
+A packet is a unit of data which is transmitted over a network between the origin and the destination. Network packets are small, i.e., maximum 1.5 Kilobytes for Ethernet packets and 64 Kilobytes for IP packets. The data packets in the Wireshark can be viewed online and can be analyzed offline
+Installation of Wireshark Software
+Below are the steps to install the Wireshark software on the computer:
+Open the web browser.
+Search for 'Download Wireshark.'
+Select the Windows installer according to your system configuration, either 32-bt or 64-bit. Save the program and close the browser.
+Now, open the software, and follow the install instruction by accepting the license.
+The Wireshark is ready for use.
+On the network and Internet settings option, we can check the interface connected to our computer.
+If you are Linux users, then you will find Wireshark in its package repositories.
+Packet Capture Using Wire shark
+Capturing your traffic with Wireshark After starting Wireshark, do the following:
+Select Capture | Interfaces
+Select the interface on which packets need to be captured. This will usually be the interface where the Packet/s column is constantly changing, which would indicate the presence of live traffic). If you have multiple network interface cards (i.e. LAN card and Wi-Fi adapter) you may need to check with your IT administrator to determine the right interface.
